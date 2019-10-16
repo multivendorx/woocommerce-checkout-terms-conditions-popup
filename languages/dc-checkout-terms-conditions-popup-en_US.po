@@ -1,0 +1,230 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Checkout-terms-conditions-popup\n"
+"POT-Creation-Date: 2015-11-28 13:05+0530\n"
+"PO-Revision-Date: 2015-11-28 13:05+0530\n"
+"Last-Translator: Dualcube <admin@dualcube.com>\n"
+"Language-Team: Dualcube <admin@dualcube.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /home/dualcube/Desktop/htdocs/term_condition/wp-"
+"content/plugins/woocommerce-checkout-terms-conditions-popup\n"
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/checkout_terms_conditions_popup.php:29
+msgid "Settings"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/checkout_terms_conditions_popup.php:30
+msgid "Support"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/classes/class-dc-checkout-terms-conditions-popup-frontend.php:194
+msgid "Close"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/classes/class-dc-checkout-terms-conditions-popup-admin.php:28
+msgid "Powered by"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/classes/class-dc-checkout-terms-conditions-popup-admin.php:28
+msgid "Dualcube"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:42
+msgid "Terms Conditions Popup Settings"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:73
+msgid "Terms and Conditions popup settings"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:80
+msgid "Is Enable"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:82
+msgid "Enable the functionality"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:86
+msgid "Is Close Button Enable"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:88
+msgid "Check this checkbox if you want close button in popup"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:92
+msgid "Enter Close Button Text"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:94
+msgid "Enter Close Button Text which appear in the terms and conditions popup"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:99
+msgid "Enter the text which will be appear in front page"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:101
+msgid "Enter your custom text which will be shown in the chaeckout page."
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:106
+msgid "Link Text"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:108
+msgid "Enter your custom Link Text which will be shown in the chaeckout page."
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:113
+msgid "External Js Lib Enable"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:115
+msgid ""
+"If you don't have a jquery lib in your theme then you can enable plugin "
+"jquery."
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:122
+msgid "Popup Custom Heading"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:124
+msgid "Popup Title instead of Terms and condition title"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:129
+msgid "Is Agree Button in popup"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:131
+msgid "Is Agree Button in popup."
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:138
+msgid "Enter the button width"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:140
+msgid "Enter the button width in px, (just put the numeric value)."
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:145
+msgid "Enter the button height"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:147
+msgid "Enter the button height in px, (just put the numeric value)."
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:152
+msgid "Enter the button text which will be appear in the popup window"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:154
+msgid "Enter the button text which will be appear in the popup window."
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:159
+msgid "Button Border Color"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:162
+msgid "Choose button border color"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:167
+msgid "Button Background Color"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:170
+msgid "Choose button background color"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:175
+msgid "Button Text Color"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:178
+msgid "Choose button text color"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:184
+msgid "Button Font Size"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:186
+msgid "Enter Button Font Size in px please do not enter suffix px just numeric"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:190
+msgid "Button Padding"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:192
+msgid "Enter Button Padding in px please do not enter suffix px just numeric"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:197
+msgid "Button Border Size"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:199
+msgid ""
+"Enter Button Border Size in px please do not enter suffix px just numeric"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:204
+msgid "Button Border Redius"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:206
+msgid ""
+"Enter Button Border Redius in px please do not enter suffix px just numeric"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:211
+msgid "Button Background Color Hover"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:214
+msgid "Choose button background color hover"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:219
+msgid "Button Text Color Hover"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:222
+msgid "Choose button text color hover"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:226
+msgid "Enter Popup Width In px"
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/admin/class-dc-checkout-terms-conditions-popup-settings.php:229
+msgid "Enter Popup Width in px only numeric value allowed here."
+msgstr ""
+
+#: /home/dualcube/Desktop/htdocs/term_condition/wp-content/plugins/woocommerce-checkout-terms-conditions-popup/includes/dc-checkout-terms-conditions-popup-core-functions.php:16
+#, php-format
+msgid ""
+"%sWoocommerce Checkout Terms & Conditions popup is inactive.%s The "
+"%sWooCommerce plugin%s must be active for the Woocommerce Checkout Terms & "
+"Conditions popup to work. Please %sinstall & activate WooCommerce%s"
+msgstr ""
+
+#~ msgid "Demo Default Settings"
+#~ msgstr "Demo Default Settings"
+
+#~ msgid "ID Number"
+#~ msgstr "Identification"
