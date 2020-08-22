@@ -25,7 +25,7 @@ class DC_Checkout_Terms_Conditions_Popup_Admin {
     ?>
     <div style="clear: both"></div>
     <div id="dc_admin_footer">
-      <?php _e('Powered by', $DC_Checkout_Terms_Conditions_Popup->text_domain); ?> <a href="http://dualcube.com" target="_blank"><img src="<?php echo $DC_Checkout_Terms_Conditions_Popup->plugin_url.'/assets/images/dualcube.png'; ?>"></a><?php _e('Dualcube', $DC_Checkout_Terms_Conditions_Popup->text_domain); ?> &copy; <?php echo date('Y');?>
+      <?php _e('Powered by', 'woocommerce-checkout-terms-conditions-popup'); ?> <a href="http://dualcube.com" target="_blank"><img src="<?php echo $DC_Checkout_Terms_Conditions_Popup->plugin_url.'/assets/images/dualcube.png'; ?>"></a><?php _e('Dualcube', 'woocommerce-checkout-terms-conditions-popup'); ?> &copy; <?php echo date('Y');?>
     </div>
     <?php
 	}

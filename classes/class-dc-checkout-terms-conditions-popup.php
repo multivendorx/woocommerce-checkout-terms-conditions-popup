@@ -87,10 +87,10 @@ class DC_Checkout_Terms_Conditions_Popup {
    * @return void
    */
   public function load_plugin_textdomain() {
-    $locale = apply_filters( 'plugin_locale', get_locale(), $this->token );
-
-    load_textdomain( $this->text_domain, WP_LANG_DIR . "/dc-checkout-terms-conditions-popup/dc-checkout-terms-conditions-popup-$locale.mo" );
-    load_textdomain( $this->text_domain, $this->plugin_path . "/languages/dc-checkout-terms-conditions-popup-$locale.mo" );
+    $locale = is_admin() && function_exists('get_user_locale') ? get_user_locale() : get_locale();
+    $locale = apply_filters('plugin_locale', $locale, 'woocommerce-checkout-terms-conditions-popup');
+    load_textdomain('woocommerce-checkout-terms-conditions-popup', WP_LANG_DIR . '/woocommerce-checkout-terms-conditions-popup/woocommerce-checkout-terms-conditions-popup-' . $locale . '.mo');
+    load_plugin_textdomain('woocommerce-checkout-terms-conditions-popup', false, plugin_basename(dirname(dirname(__FILE__))) . '/languages');
   }
 
 	public function load_class($class_name = '') {

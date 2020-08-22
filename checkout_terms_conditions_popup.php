@@ -1,12 +1,19 @@
 <?php
-/*
-Plugin Name: Woocommerce Checkout Terms Conditions Popup
-Plugin URI: http://wc-marketplace.com/
-Description: This is a woocommerce plugin which show the terms and conditions in popup in checkout page, Here admin can change the text of Terms and conditions as well as link text. admin can also configure the size of popup and text of popup button. Popup will be fully responsive in any device. 
-Author: WC Marketplace, The Grey Parrots
-Version: 1.1.9.3
-Author URI: http://wc-marketplace.com/
-*/
+/**
+ * Plugin Name: Woocommerce Checkout Terms Conditions Popup
+ * Plugin URI: https://wc-marketplace.com/
+ * Description: This is a woocommerce plugin which show the terms and conditions in popup in checkout page, Here admin can change the text of Terms and conditions as well as link text. admin can also configure the size of popup and text of popup button. Popup will be fully responsive in any device. 
+ * Author: WC Marketplace, The Grey Parrots
+ * Author URI: https://wc-marketplace.com
+ * Version: 1.2.0
+ * Requires at least: 4.2
+ * Tested up to: 5.5
+ * WC requires at least: 3.0
+ * WC tested up to: 4.4.1
+ * Text Domain: woocommerce-checkout-terms-conditions-popup
+ * Domain Path: /languages/
+ *
+ */
 
 if ( ! class_exists( 'WC_Dependencies_terms_conditions' ) ) {
 require_once trailingslashit(dirname(__FILE__)).'includes/class-dc-dependencies-terms-conditions.php';
@@ -40,4 +47,4 @@ else {
 		$DC_Checkout_Terms_Conditions_Popup = new DC_Checkout_Terms_Conditions_Popup( __FILE__ );
 		$GLOBALS['DC_Checkout_Terms_Conditions_Popup'] = $DC_Checkout_Terms_Conditions_Popup;
 	}
-}
+} 

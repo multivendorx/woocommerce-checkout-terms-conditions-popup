@@ -3,8 +3,8 @@ Contributors: Dualcube, greyparrots
 Tags: woocommerce terms popup, woocommerce, woocommerce terms, woocommerce conditions, woocommerce checkout terms and conditions popup, terms and conditions popup
 Donate link: http://wc-marketplace.com/
 Requires at least: 4.2
-Tested up to: 4.9.8
-Stable tag: 1.1.9.3
+Tested up to: 5.5
+Stable tag: 1.2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -85,6 +85,12 @@ Ans : You, have to require the WooCommerce >= 2.0.
 
 
 == Changelog ==
+= 1.2.0 - 2020-08-22 =
+* Added : Customer can print the Terms and Conditions document
+* Added : POT File Created
+* Added : WordPress 5.5 Compatibility
+* Added : WooCommerce 4.4.1 Compatibility
+
 = 1.1.9.3 =
 * Added : Rich content support on popup.
 
