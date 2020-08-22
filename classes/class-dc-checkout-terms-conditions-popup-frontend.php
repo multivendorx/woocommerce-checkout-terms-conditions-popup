@@ -163,7 +163,7 @@ class DC_Checkout_Terms_Conditions_Popup_Frontend {
 					});	
 					<?php }}?>
 					<?php if($this->terms_conditions_popup_print == "yes") { ?> 
-					    $(document).on('click','#print', function(event) {   					 
+					    $(document).on('click','#woocommerce-term-and-condition-print', function(event) {   					 
 						    event.preventDefault();		
 
 	                        var divToPrint = $('.modal-body').html();
@@ -227,7 +227,7 @@ class DC_Checkout_Terms_Conditions_Popup_Frontend {
 				<?php }
 
 				if($this->terms_conditions_popup_print == "yes") { ?>				
-					<a id="print" class="mypopupbuttonclass print_popup" style="float:left; text-align:center; cursor:pointer" >
+					<a id="woocommerce-term-and-condition-print" class="mypopupbuttonclass term-and-condition-print" style="float:left; text-align:center; cursor:pointer" >
 						<?php if($this->terms_conditions_popup_print_text !='') { echo $this->terms_conditions_popup_print_text; }else {echo __('Print','woocommerce-checkout-terms-conditions-popup');} ?></a>				
 				<?php }?>
 				</div>					

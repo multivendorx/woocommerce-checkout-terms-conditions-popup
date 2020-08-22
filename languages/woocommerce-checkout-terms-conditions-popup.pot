@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Woocommerce Checkout Terms Conditions Popup\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-22 12:46+0000\n"
+"POT-Creation-Date: 2020-08-22 14:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -227,11 +227,11 @@ msgstr ""
 msgid "Enter Print Button Text which appear in the terms and conditions popup"
 msgstr ""
 
-#: classes/class-dc-checkout-terms-conditions-popup-frontend.php:255
+#: classes/class-dc-checkout-terms-conditions-popup-frontend.php:226
 msgid "Close"
 msgstr ""
 
-#: classes/class-dc-checkout-terms-conditions-popup-frontend.php:260
+#: classes/class-dc-checkout-terms-conditions-popup-frontend.php:231
 msgid "Print"
 msgstr ""
 
@@ -260,7 +260,7 @@ msgid "https://wc-marketplace.com/"
 msgstr ""
 
 #. Author of the plugin
-msgid "WC Marketplace, The Grey Parrots"
+msgid "WC Marketplace"
 msgstr ""
 
 #. Author URI of the plugin
