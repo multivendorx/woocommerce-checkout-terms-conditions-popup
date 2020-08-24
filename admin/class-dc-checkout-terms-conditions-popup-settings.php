@@ -55,18 +55,6 @@ class DC_Checkout_Terms_Conditions_Popup_Settings {
   public function get_settings() {
   	global $DC_Checkout_Terms_Conditions_Popup;
   	
-  	?>
-  	<script type="text/javascript">
-				(function( $ ) {		 
-				// Add Color Picker to all inputs that have 'color-field' class
-				$(function() {
-						$('.color-field').wpColorPicker();
-				});
-				 
-		})( jQuery );		
-		</script>
-  	
-  	<?php
   	 $settings = array(  	 	 
 		'section_title' => array(
 		'name' => __( 'Terms and Conditions popup settings', 'woocommerce-checkout-terms-conditions-popup' ),

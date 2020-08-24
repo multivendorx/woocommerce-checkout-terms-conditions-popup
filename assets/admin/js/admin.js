@@ -1,4 +1,7 @@
 jQuery(document).ready(function($) {
+
+  $('.color-field').wpColorPicker();
+
 	$('.img_tip').each(function() {
 		$(this).qtip({
 			content: $(this).attr('data-desc'),
