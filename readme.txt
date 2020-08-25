@@ -1,10 +1,10 @@
 ===  WooCommerce Checkout Terms Conditions Popup ===
-Contributors: Dualcube, greyparrots
+Contributors: wcmp
 Tags: woocommerce terms popup, woocommerce, woocommerce terms, woocommerce conditions, woocommerce checkout terms and conditions popup, terms and conditions popup
 Donate link: http://wc-marketplace.com/
 Requires at least: 4.2
-Tested up to: 4.9.8
-Stable tag: 1.1.9.3
+Tested up to: 5.5
+Stable tag: 1.2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -40,7 +40,7 @@ We are adding new features as you are reading. So If your required feature is cu
 * Multilingual Support is included with the plugin and is fully compatible with WPML.
 
 = Configurable =
-This plugin is highly configurable, with options to customize almost every feature you may think of. if you have any suggestion regarding the plugin improvement then feel free contact to our website http://www.dualcube.com.
+This plugin is highly configurable, with options to customize almost every feature you may think of. if you have any suggestion regarding the plugin improvement then feel free contact to our website https://wc-marketplace.com.
 
 = Feedback =
 All we want is love. We are extremely responsive about support requests - so if you face a problem or find any bugs, shoot us a mail or post it in the support forum, and we will respond within 24 hours(during business days). If you get the impulse to rate the plugin low because it is not working as it should, please do wait for our response because the root cause of the problem may be something else. 
@@ -85,6 +85,12 @@ Ans : You, have to require the WooCommerce >= 2.0.
 
 
 == Changelog ==
+= 1.2.0 - 2020-08-25 =
+* Added : Customer can print the Terms and Conditions document
+* Added : POT File Created
+* Added : WordPress 5.5 Compatibility
+* Added : WooCommerce 4.4.1 Compatibility
+
 = 1.1.9.3 =
 * Added : Rich content support on popup.
 

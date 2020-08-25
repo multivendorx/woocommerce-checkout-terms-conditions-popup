@@ -28,6 +28,8 @@ class DC_Checkout_Terms_Conditions_Popup_Frontend {
 	public $terms_conditions_popup_page_scoller;
 	public $terms_conditions_popup_close;
 	public $terms_conditions_popup_close_text;
+	public $terms_conditions_popup_print;
+	public $terms_conditions_popup_print_text;
 
 	public function __construct() {
 		$this->terms_conditions_popup_is_enable = get_option('terms_conditions_popup_is_enable');
@@ -57,19 +59,17 @@ class DC_Checkout_Terms_Conditions_Popup_Frontend {
 		$this->terms_conditions_popup_page_scoller = get_option('terms_conditions_popup_page_scoller');
 		$this->terms_conditions_popup_close = get_option('terms_conditions_popup_close');
 		$this->terms_conditions_popup_close_text = get_option('terms_conditions_popup_close_text');
+		$this->terms_conditions_popup_print = get_option('terms_conditions_popup_print');
+		$this->terms_conditions_popup_print_text = get_option('terms_conditions_popup_print_text');
+
 		if($this->terms_conditions_popup_is_enable == "yes") {
-			
 			//enqueue scripts
-			//add_action('wp_enqueue_scripts', array(&$this, 'frontend_scripts'));
-			//enqueue styles
-			//add_action('wp_enqueue_scripts', array(&$this, 'frontend_styles'));
-	
-			add_action( 'dc_checkout_terms_conditions_popup_frontend_hook', array(&$this, 'dc_checkout_terms_conditions_popup_frontend_function'), 10, 2 );		
-			//add_action( 'woocommerce_checkout_order_review', array($this, 'add_pop_up'), 30);
+	        add_action('wp_enqueue_scripts', array(&$this, 'frontend_scripts'));
+	        //enqueue styles
+	        add_action('wp_enqueue_scripts', array(&$this, 'frontend_styles'));
+	        
 			add_action( 'woocommerce_pay_order_before_submit', array($this, 'add_pop_up'), 30);
-			add_action( 'woocommerce_review_order_before_submit', array($this, 'add_pop_up'), 10, 0 );
-			//add_action( 'woocommerce_after_checkout_validation',       array( $this, 'after_checkout_validation' ),10,1 );		
-			
+			add_action( 'woocommerce_review_order_before_submit', array($this, 'add_pop_up'), 10, 0 );			
 		}
 	}
 	
@@ -78,15 +78,14 @@ class DC_Checkout_Terms_Conditions_Popup_Frontend {
 		if ( wc_get_page_id( 'terms' ) > 0 && apply_filters( 'woocommerce_checkout_show_terms', true ) ) { 
 			$pre_text = $this->terms_conditions_popup_pre_text;
 			if($pre_text == "") {
-				$pre_text = "I’ve read and accept the";					
+				$pre_text = __("I’ve read and accept the","woocommerce-checkout-terms-conditions-popup");			
 			}
 			$link_text = $this->terms_conditions_popup_link_text;
 			if($link_text == "") {
-				$link_text = "Terms & Conditions";					
+				$link_text = __('Terms & Conditions','woocommerce-checkout-terms-conditions-popup');				
 			}
 			$line = $pre_text."  <a class='simple_popup_show' href='Javascript:void(0);' title=''>".$link_text."</a>"; 
-			
-			$pop_up_button_text = "Agree";
+			$pop_up_button_text = __('Agree','woocommerce-checkout-terms-conditions-popup');
 			$pop_up_width = "80%";
 			$pop_up_height = "400px";
 			
@@ -109,7 +108,8 @@ class DC_Checkout_Terms_Conditions_Popup_Frontend {
 			<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 			<link rel="stylesheet" type="text/css" href="<?php echo $DC_Checkout_Terms_Conditions_Popup->plugin_url;?>assets/frontend/css/popup.css" media="screen" />
 			 
-			<?php if(isset($settings['load_js_lib']) && $settings['load_js_lib'] == "Enable") {?>
+			<?php  if($this->terms_conditions_popup_print_text != '') { $pop_up_print_text = $this->terms_conditions_popup_print_text; }
+			if(isset($settings['load_js_lib']) && $settings['load_js_lib'] == "Enable") {?>
 			<script src="<?php echo $DC_Checkout_Terms_Conditions_Popup->plugin_url;?>assets/frontend/js/jquery-1.11.js"></script>
 			<?php }?>
 			<script type="text/javascript" src="<?php echo $DC_Checkout_Terms_Conditions_Popup->plugin_url;?>assets/frontend/js/simplepopup.js"></script>
@@ -162,6 +162,19 @@ class DC_Checkout_Terms_Conditions_Popup_Frontend {
 						
 					});	
 					<?php }}?>
+					<?php if($this->terms_conditions_popup_print == "yes") { ?> 
+					    $(document).on('click','#woocommerce-term-and-condition-print', function(event) {   					 
+						    event.preventDefault();		
+
+	                        var divToPrint = $('.modal-body').html();
+	                        var newWin=window.open('','Print-Window');
+	                        newWin.document.open();
+	                        newWin.document.write('<html><body onload="window.print()">'+divToPrint+'</body></html>');
+	                        newWin.document.close();
+	                         setTimeout(function(){newWin.close();},10);
+
+					 	});
+				 	<?php }?>
 			});
 			
 			</script>
@@ -191,31 +204,6 @@ class DC_Checkout_Terms_Conditions_Popup_Frontend {
 		        }		
 			
 			</style>
-			<?php if($this->terms_conditions_popup_div_width != '') :?>
-			<script type="text/javascript">
-			/*jQuery(document).ready(function($){
-				if(($( window ).width()*90/100) < (<?php echo $this->terms_conditions_popup_div_width; ?>)) {
-					$(".simplepopup").css('width',($( window ).width()*90/100));
-					$(".simplepopup").css('min-width',($( window ).width()*90/100));
-				}
-				$( window ).resize(function() {
-					if(($( window ).width()*90/100) < (<?php echo $this->terms_conditions_popup_div_width; ?>)) {
-						$(".simplepopup").css('width',($( window ).width()*90/100));
-						$(".simplepopup").css('min-width',($( window ).width()*90/100));
-					}
-					else {
-						var width_new = '<?php echo $this->terms_conditions_popup_div_width; ?>'+ %;
-						$(".simplepopup").css('width', width_new);
-						$(".simplepopup").css('min-width', width_new);						
-					}
-				});
-				 
-			
-			});*/
-			
-			</script>
-			<?php endif; ?>
-			
 			<div id="checkoutpopupform" class="simplepopup"  >
 				<div class="modal-header">
 					
@@ -235,34 +223,19 @@ class DC_Checkout_Terms_Conditions_Popup_Frontend {
 				<?php }?>
 				
 				<?php if($this->terms_conditions_popup_close == "yes") { ?>				
-					<a id="close_popup" class="mypopupbuttonclass" style="float:left; text-align:center; cursor:pointer"><?php if($this->terms_conditions_popup_close_text !='') { echo $this->terms_conditions_popup_close_text; }else {echo __('Close',$DC_Checkout_Terms_Conditions_Popup->text_domain);} ?></a>				
+					<a id="close_popup" class="mypopupbuttonclass" style="float:left; text-align:center; cursor:pointer"><?php if($this->terms_conditions_popup_close_text !='') { echo $this->terms_conditions_popup_close_text; }else {echo __('Close','woocommerce-checkout-terms-conditions-popup');} ?></a>				
+				<?php }
+
+				if($this->terms_conditions_popup_print == "yes") { ?>				
+					<a id="woocommerce-term-and-condition-print" class="mypopupbuttonclass term-and-condition-print" style="float:left; text-align:center; cursor:pointer" >
+						<?php if($this->terms_conditions_popup_print_text !='') { echo $this->terms_conditions_popup_print_text; }else {echo __('Print','woocommerce-checkout-terms-conditions-popup');} ?></a>				
 				<?php }?>
 				</div>					
-			</div>
-			
-			
-			
-			
+			</div>			
 			<?php
 		}
 			
 	}
-	
-/*	
-	public function after_checkout_validation($posted) {
-		global $DC_Checkout_Terms_Conditions_Popup;
-		if ( wc_get_page_id( 'terms' ) > 0 && apply_filters( 'woocommerce_checkout_show_terms', true ) ) { 
-			if($this->terms_conditions_popup_alert_enable == "yes") {
-				if($_POST['terms']!="on") {
-					echo "<script type='text/javascript'>alert(<?php echo $this->terms_conditions_popup_alert_msg; ?>);<script>";
-					return ;					
-				}
-			}
-			
-		}
-		
-		
-	}*/
 
 	function frontend_scripts() {
 		global $DC_Checkout_Terms_Conditions_Popup;
@@ -279,13 +252,5 @@ class DC_Checkout_Terms_Conditions_Popup_Frontend {
 		$frontend_style_path = $DC_Checkout_Terms_Conditions_Popup->plugin_url . 'assets/frontend/css/';
 		$frontend_style_path = str_replace( array( 'http:', 'https:' ), '', $frontend_style_path );
 		$suffix 				= defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
-
-		// Enqueue your frontend stylesheet from here
 	}
-	
-	function dc_dc_checkout_terms_conditions_popup_frontend_function() {
-	  
-	  
-	}
-
 }

@@ -1,0 +1,272 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Checkout Terms Conditions Popup\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-25 13:08+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.1; wp-5.5"
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:41
+msgid "Terms Conditions Popup Settings"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:60
+msgid "Terms and Conditions popup settings"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:67
+msgid "Is Enable"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:69
+msgid "Enable the functionality"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:73
+msgid "Is Close Button Enable"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:75
+msgid "Check this checkbox if you want close button in popup"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:79
+msgid "Enter Close Button Text"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:81
+msgid "Enter Close Button Text which appear in the terms and conditions popup"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:87
+msgid "Enter the text which will be appear in front page"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:89
+msgid "Enter your custom text which will be shown in the checkout page."
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:95
+msgid "Link Text"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:97
+msgid "Enter your custom Link Text which will be shown in the checkout page."
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:103
+msgid "External Js Lib Enable"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:105
+msgid ""
+"If you don't have a jquery lib in your theme then you can enable plugin "
+"jquery."
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:112
+msgid "Popup Custom Heading"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:114
+msgid "Popup Title instead of Terms and condition title"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:120
+msgid "Is Agree Button in popup"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:122
+msgid "Is Agree Button in popup."
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:129
+msgid "Enter the button width"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:131
+msgid "Enter the button width in px, (just put the numeric value)."
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:137
+msgid "Enter the button height"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:139
+msgid "Enter the button height in px, (just put the numeric value)."
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:145
+msgid "Enter the button text which will be appear in the popup window"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:147
+msgid "Enter the button text which will be appear in the popup window."
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:153
+msgid "Button Border Color"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:156
+msgid "Choose button border color"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:161
+msgid "Button Background Color"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:164
+msgid "Choose button background color"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:169
+msgid "Button Text Color"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:172
+msgid "Choose button text color"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:178
+msgid "Button Font Size"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:180
+msgid "Enter Button Font Size in px please do not enter suffix px just numeric"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:185
+msgid "Button Padding"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:187
+msgid "Enter Button Padding in px please do not enter suffix px just numeric"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:193
+msgid "Button Border Size"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:195
+msgid ""
+"Enter Button Border Size in px please do not enter suffix px just numeric"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:201
+msgid "Button Border Redius"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:203
+msgid ""
+"Enter Button Border Redius in px please do not enter suffix px just numeric"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:209
+msgid "Button Background Color Hover"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:212
+msgid "Choose button background color hover"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:217
+msgid "Button Text Color Hover"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:220
+msgid "Choose button text color hover"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:224
+msgid "Enter Popup Width In percent(%)"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:227
+msgid "Enter Popup Width in percent(%) only numeric value allowed here."
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:232
+msgid "Enter Popup Height In vh"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:235
+msgid "Enter Popup Height in vh only numeric value allowed here."
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:240
+msgid "Disable Page Scroller"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:242
+msgid "Disable page scroller when popup is open."
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:247
+msgid "Enable Printer"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:249
+msgid "Enable the Printer to print the terms and conditions page."
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:253
+msgid "Enter Print Button Text"
+msgstr ""
+
+#: admin/class-dc-checkout-terms-conditions-popup-settings.php:255
+msgid "Enter Print Button Text which appear in the terms and conditions popup"
+msgstr ""
+
+#: classes/class-dc-checkout-terms-conditions-popup-frontend.php:81
+msgid "I’ve read and accept the"
+msgstr ""
+
+#: classes/class-dc-checkout-terms-conditions-popup-frontend.php:85
+msgid "Terms & Conditions"
+msgstr ""
+
+#: classes/class-dc-checkout-terms-conditions-popup-frontend.php:88
+msgid "Agree"
+msgstr ""
+
+#: classes/class-dc-checkout-terms-conditions-popup-frontend.php:226
+msgid "Close"
+msgstr ""
+
+#: classes/class-dc-checkout-terms-conditions-popup-frontend.php:231
+msgid "Print"
+msgstr ""
+
+#. Name of the plugin
+msgid "Woocommerce Checkout Terms Conditions Popup"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"This is a woocommerce plugin which show the terms and conditions in popup in "
+"checkout page, Here admin can change the text of Terms and conditions as "
+"well as link text. admin can also configure the size of popup and text of "
+"popup button. Popup will be fully responsive in any device."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wc-marketplace.com/"
+msgstr ""
+
+#. Author of the plugin
+msgid "WC Marketplace"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wc-marketplace.com"
+msgstr ""

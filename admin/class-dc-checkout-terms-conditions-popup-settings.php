@@ -38,7 +38,7 @@ class DC_Checkout_Terms_Conditions_Popup_Settings {
    */
   public function add_conditions_popup_settings_tab($settings_tabs) {
   	global $DC_Checkout_Terms_Conditions_Popup;
-  	$settings_tabs['conditions_popup_settings_tab'] = __( 'Terms Conditions Popup Settings', $DC_Checkout_Terms_Conditions_Popup->text_domain );
+  	$settings_tabs['conditions_popup_settings_tab'] = __( 'Terms Conditions Popup Settings', 'woocommerce-checkout-terms-conditions-popup' );
   	return $settings_tabs;  	
   }
   
@@ -55,205 +55,208 @@ class DC_Checkout_Terms_Conditions_Popup_Settings {
   public function get_settings() {
   	global $DC_Checkout_Terms_Conditions_Popup;
   	
-  	?>
-  	<script type="text/javascript">
-				(function( $ ) {		 
-				// Add Color Picker to all inputs that have 'color-field' class
-				$(function() {
-						$('.color-field').wpColorPicker();
-				});
-				 
-		})( jQuery );		
-		</script>
-  	
-  	<?php
   	 $settings = array(  	 	 
 		'section_title' => array(
-		'name' => __( 'Terms and Conditions popup settings', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'name' => __( 'Terms and Conditions popup settings', 'woocommerce-checkout-terms-conditions-popup' ),
 		'type' => 'title',
 		'desc' => '',
 		'id' => 'wc_settings_tab_demo_section_title'
 		),
 		
 		'terms_conditions_popup_is_enable' => array(
-		'name' => __( 'Is Enable', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'name' => __( 'Is Enable', 'woocommerce-checkout-terms-conditions-popup' ),
 		'type' => 'checkbox',
-		'desc' => __( 'Enable the functionality', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'desc' => __( 'Enable the functionality', 'woocommerce-checkout-terms-conditions-popup' ),
 		'id' => 'terms_conditions_popup_is_enable'
 		),
 		'terms_conditions_popup_close' => array(
-		'name' => __( 'Is Close Button Enable', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'name' => __( 'Is Close Button Enable', 'woocommerce-checkout-terms-conditions-popup' ),
 		'type' => 'checkbox',
-		'desc' => __( 'Check this checkbox if you want close button in popup', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'desc' => __( 'Check this checkbox if you want close button in popup', 'woocommerce-checkout-terms-conditions-popup' ),
 		'id' => 'terms_conditions_popup_close'
 		),
 		'terms_conditions_popup_close_text' => array(
-		'name' => __( 'Enter Close Button Text', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'name' => __( 'Enter Close Button Text', 'woocommerce-checkout-terms-conditions-popup' ),
 		'type' => 'text',
-		'desc' => __( 'Enter Close Button Text which appear in the terms and conditions popup', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'desc' => __( 'Enter Close Button Text which appear in the terms and conditions popup', 'woocommerce-checkout-terms-conditions-popup' ),
 		'desc_tip' => true,
 		'id' => 'terms_conditions_popup_close_text'
 		),
 		
 		'terms_conditions_popup_pre_text' => array(
-		'name' => __( 'Enter the text which will be appear in front page', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'name' => __( 'Enter the text which will be appear in front page', 'woocommerce-checkout-terms-conditions-popup' ),
 		'type' => 'text',
-		'desc' => __( 'Enter your custom text which will be shown in the checkout page.', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'desc' => __( 'Enter your custom text which will be shown in the checkout page.', 'woocommerce-checkout-terms-conditions-popup' ),
 		'desc_tip' => true,
 		'id' => 'terms_conditions_popup_pre_text'
 		),
 		
 		'terms_conditions_popup_link_text' => array(
-		'name' => __( 'Link Text', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'name' => __( 'Link Text', 'woocommerce-checkout-terms-conditions-popup' ),
 		'type' => 'text',
-		'desc' => __( 'Enter your custom Link Text which will be shown in the checkout page.', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'desc' => __( 'Enter your custom Link Text which will be shown in the checkout page.', 'woocommerce-checkout-terms-conditions-popup' ),
 		'desc_tip' => true,
 		'id' => 'terms_conditions_popup_link_text'
 		),
 		
 		'terms_conditions_popup_js_enable' => array(
-		'name' => __( 'External Js Lib Enable', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'name' => __( 'External Js Lib Enable', 'woocommerce-checkout-terms-conditions-popup' ),
 		'type' => 'checkbox',
-		'desc' => __( "If you don't have a jquery lib in your theme then you can enable plugin jquery.", $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'desc' => __( "If you don't have a jquery lib in your theme then you can enable plugin jquery.", 'woocommerce-checkout-terms-conditions-popup' ),
 		'id' => 'terms_conditions_popup_js_enable'
 		),
 		
 		
 		
 		'terms_conditions_popup_heading' => array(
-		'name' => __( 'Popup Custom Heading', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'name' => __( 'Popup Custom Heading', 'woocommerce-checkout-terms-conditions-popup' ),
 		'type' => 'text',		
-		'desc' => __( 'Popup Title instead of Terms and condition title', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'desc' => __( 'Popup Title instead of Terms and condition title', 'woocommerce-checkout-terms-conditions-popup' ),
 		'desc_tip' => true,
 		'id' => 'terms_conditions_popup_heading'
 		),
 		
 		'terms_conditions_popup_agree_enable' => array(
-		'name' => __( 'Is Agree Button in popup', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'name' => __( 'Is Agree Button in popup', 'woocommerce-checkout-terms-conditions-popup' ),
 		'type' => 'checkbox',
-		'desc' => __( "Is Agree Button in popup.", $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'desc' => __( "Is Agree Button in popup.", 'woocommerce-checkout-terms-conditions-popup' ),
 		'id' => 'terms_conditions_popup_agree_enable'
 		),
 		
 		
 		
 		'terms_conditions_popup_button_width' => array(
-		'name' => __( 'Enter the button width', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'name' => __( 'Enter the button width', 'woocommerce-checkout-terms-conditions-popup' ),
 		'type' => 'text',
-		'desc' => __( 'Enter the button width in px, (just put the numeric value).', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'desc' => __( 'Enter the button width in px, (just put the numeric value).', 'woocommerce-checkout-terms-conditions-popup' ),
 		'desc_tip' => true,
 		'id' => 'terms_conditions_popup_button_width'
 		),
 		
 		'terms_conditions_popup_button_height' => array(
-		'name' => __( 'Enter the button height', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'name' => __( 'Enter the button height', 'woocommerce-checkout-terms-conditions-popup' ),
 		'type' => 'text',
-		'desc' => __( 'Enter the button height in px, (just put the numeric value).', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'desc' => __( 'Enter the button height in px, (just put the numeric value).', 'woocommerce-checkout-terms-conditions-popup' ),
 		'desc_tip' => true,
 		'id' => 'terms_conditions_popup_button_height'
 		),
 		
 		'terms_conditions_popup_button_text' => array(
-		'name' => __( 'Enter the button text which will be appear in the popup window', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'name' => __( 'Enter the button text which will be appear in the popup window', 'woocommerce-checkout-terms-conditions-popup' ),
 		'type' => 'text',
-		'desc' => __( 'Enter the button text which will be appear in the popup window.', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'desc' => __( 'Enter the button text which will be appear in the popup window.', 'woocommerce-checkout-terms-conditions-popup' ),
 		'desc_tip' => true,
 		'id' => 'terms_conditions_popup_button_text'
 		),
 		
 		'terms_conditions_popup_button_border_color' => array(
-		'name' => __( 'Button Border Color', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'name' => __( 'Button Border Color', 'woocommerce-checkout-terms-conditions-popup' ),
 		'type' => 'text',
 		'class' => 'color-field',
-		'desc' => __( 'Choose button border color', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'desc' => __( 'Choose button border color', 'woocommerce-checkout-terms-conditions-popup' ),
 		'id' => 'terms_conditions_popup_button_border_color'
 		),
 		
 		'terms_conditions_popup_button_background_color' => array(
-		'name' => __( 'Button Background Color', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'name' => __( 'Button Background Color', 'woocommerce-checkout-terms-conditions-popup' ),
 		'type' => 'text',
 		'class' => 'color-field',
-		'desc' => __( 'Choose button background color', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'desc' => __( 'Choose button background color', 'woocommerce-checkout-terms-conditions-popup' ),
 		'id' => 'terms_conditions_popup_button_background_color'
 		),		
 		
 		'terms_conditions_popup_button_text_color' => array(
-		'name' => __( 'Button Text Color', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'name' => __( 'Button Text Color', 'woocommerce-checkout-terms-conditions-popup' ),
 		'type' => 'text',
 		'class' => 'color-field',
-		'desc' => __( 'Choose button text color', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'desc' => __( 'Choose button text color', 'woocommerce-checkout-terms-conditions-popup' ),
 		'id' => 'terms_conditions_popup_button_text_color'
 		),
 		
 		
 		'terms_conditions_button_font_size' => array(
-		'name' => __( 'Button Font Size', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'name' => __( 'Button Font Size', 'woocommerce-checkout-terms-conditions-popup' ),
 		'type' => 'text',		
-		'desc' => __( 'Enter Button Font Size in px please do not enter suffix px just numeric', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'desc' => __( 'Enter Button Font Size in px please do not enter suffix px just numeric', 'woocommerce-checkout-terms-conditions-popup' ),
 		'desc_tip' => true,
 		'id' => 'terms_conditions_button_font_size'
 		),
 		'terms_conditions_button_padding' => array(
-		'name' => __( 'Button Padding', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'name' => __( 'Button Padding', 'woocommerce-checkout-terms-conditions-popup' ),
 		'type' => 'text',		
-		'desc' => __( 'Enter Button Padding in px please do not enter suffix px just numeric', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'desc' => __( 'Enter Button Padding in px please do not enter suffix px just numeric', 'woocommerce-checkout-terms-conditions-popup' ),
 		'desc_tip' => true,
 		'id' => 'terms_conditions_button_padding'
 		),
 		
 		'terms_conditions_button_border_size' => array(
-		'name' => __( 'Button Border Size', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'name' => __( 'Button Border Size', 'woocommerce-checkout-terms-conditions-popup' ),
 		'type' => 'text',		
-		'desc' => __( 'Enter Button Border Size in px please do not enter suffix px just numeric', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'desc' => __( 'Enter Button Border Size in px please do not enter suffix px just numeric', 'woocommerce-checkout-terms-conditions-popup' ),
 		'desc_tip' => true,
 		'id' => 'terms_conditions_button_border_size'
 		),
 		
 		'terms_conditions_button_border_redius' => array(
-		'name' => __( 'Button Border Redius', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'name' => __( 'Button Border Redius', 'woocommerce-checkout-terms-conditions-popup' ),
 		'type' => 'text',		
-		'desc' => __( 'Enter Button Border Redius in px please do not enter suffix px just numeric', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'desc' => __( 'Enter Button Border Redius in px please do not enter suffix px just numeric', 'woocommerce-checkout-terms-conditions-popup' ),
 		'desc_tip' => true,
 		'id' => 'terms_conditions_button_border_redius'
 		),
 		
 		'terms_conditions_popup_button_background_color_hover' => array(
-		'name' => __( 'Button Background Color Hover', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'name' => __( 'Button Background Color Hover', 'woocommerce-checkout-terms-conditions-popup' ),
 		'type' => 'text',
 		'class' => 'color-field',
-		'desc' => __( 'Choose button background color hover', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'desc' => __( 'Choose button background color hover', 'woocommerce-checkout-terms-conditions-popup' ),
 		'id' => 'terms_conditions_popup_button_background_color_hover'
 		),
 		
 		'terms_conditions_popup_button_text_color_hover' => array(
-		'name' => __( 'Button Text Color Hover', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'name' => __( 'Button Text Color Hover', 'woocommerce-checkout-terms-conditions-popup' ),
 		'type' => 'text',
 		'class' => 'color-field',
-		'desc' => __( 'Choose button text color hover', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'desc' => __( 'Choose button text color hover', 'woocommerce-checkout-terms-conditions-popup' ),
 		'id' => 'terms_conditions_popup_button_text_color_hover'
 		),
 		'terms_conditions_popup_div_width' => array(
-		'name' => __( 'Enter Popup Width In percent(%)', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'name' => __( 'Enter Popup Width In percent(%)', 'woocommerce-checkout-terms-conditions-popup' ),
 		'type' => 'number',
 		'class' => 'text',
-		'desc' => __( 'Enter Popup Width in percent(%) only numeric value allowed here.', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'desc' => __( 'Enter Popup Width in percent(%) only numeric value allowed here.', 'woocommerce-checkout-terms-conditions-popup' ),
 		'desc_tip' => true,
 		'id' => 'terms_conditions_popup_div_width'
 		),
 		'terms_conditions_popup_div_height' => array(
-		'name' => __( 'Enter Popup Height In vh', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'name' => __( 'Enter Popup Height In vh', 'woocommerce-checkout-terms-conditions-popup' ),
 		'type' => 'number',
 		'class' => 'text',
-		'desc' => __( 'Enter Popup Height in vh only numeric value allowed here.', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'desc' => __( 'Enter Popup Height in vh only numeric value allowed here.', 'woocommerce-checkout-terms-conditions-popup' ),
 		'desc_tip' => true,
 		'id' => 'terms_conditions_popup_div_height'
 		),
 		'terms_conditions_popup_page_scoller' => array(
-		'name' => __( 'Disable Page Scroller', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'name' => __( 'Disable Page Scroller', 'woocommerce-checkout-terms-conditions-popup' ),
 		'type' => 'checkbox',
-		'desc' => __( 'Disable page scroller when popup is open.', $DC_Checkout_Terms_Conditions_Popup->text_domain ),
+		'desc' => __( 'Disable page scroller when popup is open.', 'woocommerce-checkout-terms-conditions-popup' ),
 		'id' => 'terms_conditions_popup_page_scoller'
-		),		
+		),
+
+		'terms_conditions_popup_print' => array(
+		'name' => __( 'Enable Printer', 'woocommerce-checkout-terms-conditions-popup' ),
+		'type' => 'checkbox',
+		'desc' => __( 'Enable the Printer to print the terms and conditions page.', 'woocommerce-checkout-terms-conditions-popup' ),
+		'id' => 'terms_conditions_popup_print'
+		),	
+		'terms_conditions_popup_print_text' => array(
+		'name' => __( 'Enter Print Button Text', 'woocommerce-checkout-terms-conditions-popup' ),
+		'type' => 'text',
+		'desc' => __( 'Enter Print Button Text which appear in the terms and conditions popup', 'woocommerce-checkout-terms-conditions-popup' ),
+		'desc_tip' => true,
+		'id' => 'terms_conditions_popup_print_text'
+		),
+
 		'section_end' => array(
 		'type' => 'sectionend',
 		'id' => 'wc_settings_tab_demo_section_end'
