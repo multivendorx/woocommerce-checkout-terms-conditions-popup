@@ -85,7 +85,7 @@ Ans : You, have to require the WooCommerce >= 2.0.
 
 
 == Changelog ==
-= 1.2.0 - 2020-08-24 =
+= 1.2.0 - 2020-08-25 =
 * Added : Customer can print the Terms and Conditions document
 * Added : POT File Created
 * Added : WordPress 5.5 Compatibility
