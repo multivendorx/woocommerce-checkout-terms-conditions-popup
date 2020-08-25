@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Woocommerce Checkout Terms Conditions Popup\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-25 12:28+0000\n"
+"POT-Creation-Date: 2020-08-25 13:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -225,6 +225,18 @@ msgstr ""
 
 #: admin/class-dc-checkout-terms-conditions-popup-settings.php:255
 msgid "Enter Print Button Text which appear in the terms and conditions popup"
+msgstr ""
+
+#: classes/class-dc-checkout-terms-conditions-popup-frontend.php:81
+msgid "I’ve read and accept the"
+msgstr ""
+
+#: classes/class-dc-checkout-terms-conditions-popup-frontend.php:85
+msgid "Terms & Conditions"
+msgstr ""
+
+#: classes/class-dc-checkout-terms-conditions-popup-frontend.php:88
+msgid "Agree"
 msgstr ""
 
 #: classes/class-dc-checkout-terms-conditions-popup-frontend.php:226
