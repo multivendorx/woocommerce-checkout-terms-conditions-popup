@@ -1,10 +1,10 @@
 <?php
 /**
- * Dualcube Wp Fields Lib
+ * wc-marketplace Wp Fields Lib
  *
  * All Standard HTML fields can be include in your frontend or backend pages 
  *
- * @author 		Dualcube
+ * @author 		wc-marketplace
  * @category 	Library
  * @package 	lib/php
  * @version     1.0.2

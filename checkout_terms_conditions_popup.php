@@ -35,7 +35,7 @@ else {
 	function checkout_terms_conditions_popup_plugin_links( $links ) {	
 		$plugin_links = array(
 			'<a href="' . admin_url( 'admin.php?page=wc-settings&tab=conditions_popup_settings_tab' ) . '">' . __( 'Settings', DC_CHECKOUT_TERMS_CONDITIONS_POPUP_TEXT_DOMAIN ) . '</a>',
-			'<a href="http://dualcube.com/">' . __( 'Support', DC_CHECKOUT_TERMS_CONDITIONS_POPUP_TEXT_DOMAIN ) . '</a>',
+			'<a href="https://wc-marketplace.com/support-forum/">' . __( 'Support', DC_CHECKOUT_TERMS_CONDITIONS_POPUP_TEXT_DOMAIN ) . '</a>',
 			
 		);	
 		return array_merge( $plugin_links, $links );
