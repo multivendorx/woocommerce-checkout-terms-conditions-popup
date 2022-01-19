@@ -229,10 +229,10 @@ class DC_Checkout_Terms_Conditions_Popup_Settings {
 		'id' => 'terms_conditions_popup_div_width'
 		),
 		'terms_conditions_popup_div_height' => array(
-		'name' => __( 'Enter Popup Height In vh', 'woocommerce-checkout-terms-conditions-popup' ),
+		'name' => __( 'Enter Popup Height In Percent(%)', 'woocommerce-checkout-terms-conditions-popup' ),
 		'type' => 'number',
 		'class' => 'text',
-		'desc' => __( 'Enter Popup Height in vh only numeric value allowed here.', 'woocommerce-checkout-terms-conditions-popup' ),
+		'desc' => __( 'Enter Popup Height in vh only numeric value allowed here. This unit is based on the height of the viewport. A value of 1vh is equal to 1% of the viewport height.', 'woocommerce-checkout-terms-conditions-popup' ),
 		'desc_tip' => true,
 		'id' => 'terms_conditions_popup_div_height'
 		),
