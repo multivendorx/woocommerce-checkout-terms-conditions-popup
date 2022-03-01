@@ -88,8 +88,9 @@ Ans : You, have to require the WooCommerce >= 2.0.
 = 1.2.1 - 2022-03-01 =
 * Added - Compatibility of WordPress 5.9.1.
 * Added - Compatibility of Woocommerce 6.2.1.
-* Fix : Enhancement #5.
-* Fix : Typo Error #3.
+* Fix 	- Enhancement #5.
+* Fix 	- Typo Error #3.
+* Updated - Language file.
 
 = 1.2.0 - 2020-08-25 =
 * Added : Customer can print the Terms and Conditions document
