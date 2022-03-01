@@ -87,6 +87,7 @@ class DC_Checkout_Terms_Conditions_Popup_Settings {
 		'name' => __( 'Enter the text which will be appear in front page', 'woocommerce-checkout-terms-conditions-popup' ),
 		'type' => 'text',
 		'desc' => __( 'Enter your custom text which will be shown in the checkout page.', 'woocommerce-checkout-terms-conditions-popup' ),
+		'value'   => __( 'I&rsquo;ve read and accepted', 'woocommerce-checkout-terms-conditions-popup' ),
 		'desc_tip' => true,
 		'id' => 'terms_conditions_popup_pre_text'
 		),
