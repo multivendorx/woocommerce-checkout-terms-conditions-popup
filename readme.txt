@@ -85,6 +85,11 @@ Ans : You, have to require the WooCommerce >= 2.0.
 
 
 == Changelog ==
+
+= 1.2.2 - 2022-07-07 =
+* Added - Compatibility of WordPress 6.0.
+* Added - Compatibility of Woocommerce 6.6.1.
+
 = 1.2.1 - 2022-03-01 =
 * Added - Compatibility of WordPress 5.9.1.
 * Added - Compatibility of Woocommerce 6.2.1.
