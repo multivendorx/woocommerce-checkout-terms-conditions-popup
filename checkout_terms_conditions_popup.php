@@ -5,11 +5,11 @@
  * Description: This is a woocommerce plugin which show the terms and conditions in popup in checkout page, Here admin can change the text of Terms and conditions as well as link text. admin can also configure the size of popup and text of popup button. Popup will be fully responsive in any device. 
  * Author: WC Marketplace
  * Author URI: https://wc-marketplace.com
- * Version: 1.2.1
+ * Version: 1.2.2
  * Requires at least: 4.2
- * Tested up to: 5.9.1
+ * Tested up to: 6.0
  * WC requires at least: 3.0
- * WC tested up to: 6.2.1
+ * WC tested up to: 6.6.1
  * Text Domain: woocommerce-checkout-terms-conditions-popup
  * Domain Path: /languages/
  *

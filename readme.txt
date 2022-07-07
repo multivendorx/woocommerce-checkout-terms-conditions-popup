@@ -1,10 +1,10 @@
 ===  WooCommerce Checkout Terms Conditions Popup ===
-Contributors: wcmp
+Contributors: wcmp, rajsekharchatterjee11
 Tags: woocommerce terms popup, woocommerce, woocommerce terms, woocommerce conditions, woocommerce checkout terms and conditions popup, terms and conditions popup
 Donate link: http://wc-marketplace.com/
 Requires at least: 4.2
-Tested up to: 5.9.1
-Stable tag: 1.2.1
+Tested up to: 6.0
+Stable tag: 1.2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -85,6 +85,11 @@ Ans : You, have to require the WooCommerce >= 2.0.
 
 
 == Changelog ==
+
+= 1.2.2 - 2022-07-07 =
+* Added - Compatibility of WordPress 6.0
+* Added - Compatibility of Woocommerce 6.6.1.
+
 = 1.2.1 - 2022-03-01 =
 * Added - Compatibility of WordPress 5.9.1.
 * Added - Compatibility of Woocommerce 6.2.1.
