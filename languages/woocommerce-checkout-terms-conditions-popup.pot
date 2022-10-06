@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Woocommerce Checkout Terms Conditions Popup\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-01 10:51+0000\n"
+"POT-Creation-Date: 2022-10-06 07:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -197,11 +197,8 @@ msgstr ""
 msgid "External Js Lib Enable"
 msgstr ""
 
-#. Author URI of the plugin
-msgid "https://multivendorx.com"
-msgstr ""
-
 #. URI of the plugin
+#. Author URI of the plugin
 msgid "https://multivendorx.com/"
 msgstr ""
 
@@ -239,6 +236,10 @@ msgstr ""
 msgid "Link Text"
 msgstr ""
 
+#. Author of the plugin
+msgid "MultiVendorX"
+msgstr ""
+
 #: admin/class-mvx-checkout-terms-conditions-popup-settings.php:113
 msgid "Popup Custom Heading"
 msgstr ""
@@ -269,10 +270,6 @@ msgid ""
 "checkout page, Here admin can change the text of Terms and conditions as "
 "well as link text. admin can also configure the size of popup and text of "
 "popup button. Popup will be fully responsive in any device."
-msgstr ""
-
-#. Author of the plugin
-msgid "MultiVendorX"
 msgstr ""
 
 #. Name of the plugin
