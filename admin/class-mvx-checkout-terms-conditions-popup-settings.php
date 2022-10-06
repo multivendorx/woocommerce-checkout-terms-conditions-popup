@@ -1,5 +1,5 @@
 <?php
-class DC_Checkout_Terms_Conditions_Popup_Settings {
+class MVX_Checkout_Terms_Conditions_Popup_Settings {
   
   private $tabs = array();
   
@@ -18,16 +18,16 @@ class DC_Checkout_Terms_Conditions_Popup_Settings {
     add_action( 'woocommerce_update_options_conditions_popup_settings_tab', array($this,'update_settings') );
     
     // Settings tabs
-    //add_action('settings_page_dc_checkout_terms_conditions_popup_general_tab_init', array(&$this, 'general_tab_init'), 10, 1);
+    //add_action('settings_page_mvx_checkout_terms_conditions_popup_general_tab_init', array(&$this, 'general_tab_init'), 10, 1);
     
   }
   
   
   function terms_conditions_add_color_picker( $hook ) {
-	     global $DC_Checkout_Terms_Conditions_Popup;
+	     global $MVX_Checkout_Terms_Conditions_Popup;
 			if( is_admin() ) {			 
 					// Add the color picker css file      
-					$DC_Checkout_Terms_Conditions_Popup->library->load_colorpicker_lib();
+					$MVX_Checkout_Terms_Conditions_Popup->library->load_colorpicker_lib();
 			}
 	}
   
@@ -37,7 +37,7 @@ class DC_Checkout_Terms_Conditions_Popup_Settings {
    *
    */
   public function add_conditions_popup_settings_tab($settings_tabs) {
-  	global $DC_Checkout_Terms_Conditions_Popup;
+  	global $MVX_Checkout_Terms_Conditions_Popup;
   	$settings_tabs['conditions_popup_settings_tab'] = __( 'Terms Conditions Popup Settings', 'woocommerce-checkout-terms-conditions-popup' );
   	return $settings_tabs;  	
   }
@@ -48,12 +48,12 @@ class DC_Checkout_Terms_Conditions_Popup_Settings {
    *
    */
   public function terms_settings_tab() {
-  	global $DC_Checkout_Terms_Conditions_Popup;
+  	global $MVX_Checkout_Terms_Conditions_Popup;
   	woocommerce_admin_fields( $this->get_settings() );  	
   }
   
   public function get_settings() {
-  	global $DC_Checkout_Terms_Conditions_Popup;
+  	global $MVX_Checkout_Terms_Conditions_Popup;
   	
   	 $settings = array(  	 	 
 		'section_title' => array(

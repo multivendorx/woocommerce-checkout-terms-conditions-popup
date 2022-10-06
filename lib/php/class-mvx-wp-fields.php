@@ -1,15 +1,15 @@
 <?php
 /**
- * wc-marketplace Wp Fields Lib
+ * multivendorx Wp Fields Lib
  *
  * All Standard HTML fields can be include in your frontend or backend pages 
  *
- * @author 		wc-marketplace
+ * @author 		multivendorx
  * @category 	Library
  * @package 	lib/php
  * @version     1.0.2
  */
-class DC_WP_Fields {
+class MVX_WP_Fields {
   
   /**
    * Start up
@@ -336,7 +336,7 @@ class DC_WP_Fields {
     
     printf(
         '
-        <span class="dc-wp-fields-uploader">
+        <span class="mvx-wp-fields-uploader">
           %s
           <input type="text" name="%s" id="%s" style="%s" class="%s" readonly value="%s" %s data-mime="%s" />
           <input type="button" class="upload_button button button-secondary" name="%s_button" id="%s_button" data-mime="%s" value="Upload" />
@@ -403,7 +403,7 @@ class DC_WP_Fields {
     $field['value'] 		= isset( $field['value'] ) ? $field['value'] : '';
     $field['name'] 			= isset( $field['name'] ) ? $field['name'] : $field['id'];
     $field['type'] 			= isset( $field['type'] ) ? $field['type'] : 'text';
-    $field['class'] .= ' dc_datepicker';
+    $field['class'] .= ' mvx_datepicker';
     
     // Custom attribute handling
     $custom_attributes = array();
@@ -666,7 +666,7 @@ class DC_WP_Fields {
     do_action('after_field_wrapper');
   }
   
-  public function dc_generate_form_field($fields, $common_attrs = array()) {
+  public function mvx_generate_form_field($fields, $common_attrs = array()) {
     if(!empty($fields)) {
     	foreach($fields as $fieldID => $field) {
     	  $field = $this->check_field_id_name($fieldID, $field);
@@ -750,10 +750,10 @@ class DC_WP_Fields {
   
   public function string_wpml($input) {
     if( function_exists( 'icl_register_string' ) ) {
-      icl_register_string('Dualcube', ''.$input.'', ''.$input.'');
+      icl_register_string('MultiVendorX', ''.$input.'', ''.$input.'');
     }
     if (function_exists( 'icl_t' )) {
-      return icl_t('Dualcube', ''.$input.'', ''.$input.'');
+      return icl_t('MultiVendorX', ''.$input.'', ''.$input.'');
     } else {
       return $input;
     }

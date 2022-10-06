@@ -1,5 +1,5 @@
 <?php
-class DC_Checkout_Terms_Conditions_Popup_Frontend {
+class MVX_Checkout_Terms_Conditions_Popup_Frontend {
 	
 	public $terms_conditions_popup_is_enable ;
 	public $terms_conditions_popup_pre_text ;
@@ -74,7 +74,7 @@ class DC_Checkout_Terms_Conditions_Popup_Frontend {
 	}
 	
 	function add_pop_up() {
-		global $DC_Checkout_Terms_Conditions_Popup, $woocommerce, $post ;
+		global $MVX_Checkout_Terms_Conditions_Popup, $woocommerce, $post ;
 		if ( wc_get_page_id( 'terms' ) > 0 && apply_filters( 'woocommerce_checkout_show_terms', true ) ) { 
 			$pre_text = $this->terms_conditions_popup_pre_text;
 			if($pre_text == "") {
@@ -106,13 +106,13 @@ class DC_Checkout_Terms_Conditions_Popup_Frontend {
 			?>
 			
 			<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-			<link rel="stylesheet" type="text/css" href="<?php echo $DC_Checkout_Terms_Conditions_Popup->plugin_url;?>assets/frontend/css/popup.css" media="screen" />
+			<link rel="stylesheet" type="text/css" href="<?php echo $MVX_Checkout_Terms_Conditions_Popup->plugin_url;?>assets/frontend/css/popup.css" media="screen" />
 			 
 			<?php  if($this->terms_conditions_popup_print_text != '') { $pop_up_print_text = $this->terms_conditions_popup_print_text; }
 			if(isset($settings['load_js_lib']) && $settings['load_js_lib'] == "Enable") {?>
-			<script src="<?php echo $DC_Checkout_Terms_Conditions_Popup->plugin_url;?>assets/frontend/js/jquery-1.11.js"></script>
+			<script src="<?php echo $MVX_Checkout_Terms_Conditions_Popup->plugin_url;?>assets/frontend/js/jquery-1.11.js"></script>
 			<?php }?>
-			<script type="text/javascript" src="<?php echo $DC_Checkout_Terms_Conditions_Popup->plugin_url;?>assets/frontend/js/simplepopup.js"></script>
+			<script type="text/javascript" src="<?php echo $MVX_Checkout_Terms_Conditions_Popup->plugin_url;?>assets/frontend/js/simplepopup.js"></script>
 			
 			<script type="text/javascript" >				
 			jQuery(document).ready(function($) {
@@ -238,18 +238,18 @@ class DC_Checkout_Terms_Conditions_Popup_Frontend {
 	}
 
 	function frontend_scripts() {
-		global $DC_Checkout_Terms_Conditions_Popup;
-		$frontend_script_path = $DC_Checkout_Terms_Conditions_Popup->plugin_url . 'assets/frontend/js/';
+		global $MVX_Checkout_Terms_Conditions_Popup;
+		$frontend_script_path = $MVX_Checkout_Terms_Conditions_Popup->plugin_url . 'assets/frontend/js/';
 		$frontend_script_path = str_replace( array( 'http:', 'https:' ), '', $frontend_script_path );
-		$pluginURL = str_replace( array( 'http:', 'https:' ), '', $DC_Checkout_Terms_Conditions_Popup->plugin_url );
+		$pluginURL = str_replace( array( 'http:', 'https:' ), '', $MVX_Checkout_Terms_Conditions_Popup->plugin_url );
 		$suffix 				= defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
 		
 		// Enqueue your frontend javascript from here
 	}
 
 	function frontend_styles() {
-		global $DC_Checkout_Terms_Conditions_Popup;
-		$frontend_style_path = $DC_Checkout_Terms_Conditions_Popup->plugin_url . 'assets/frontend/css/';
+		global $MVX_Checkout_Terms_Conditions_Popup;
+		$frontend_style_path = $MVX_Checkout_Terms_Conditions_Popup->plugin_url . 'assets/frontend/css/';
 		$frontend_style_path = str_replace( array( 'http:', 'https:' ), '', $frontend_style_path );
 		$suffix 				= defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
 	}

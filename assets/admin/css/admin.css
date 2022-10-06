@@ -1,17 +1,13 @@
-#dualcube_menu_ico {
-  background: url("../../images/dclogo.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
-}
-
-#dc_admin_footer {
+#mvx_admin_footer {
   bottom: 45px;
   text-align: center;
 }
 
-#dc_admin_footer a {
+#mvx_admin_footer a {
   text-decoration: none; 
 }
 
-#dc_admin_footer img {
+#mvx_admin_footer img {
   border: none; 
   margin-right: 5px;
   vertical-align: bottom;

@@ -15,125 +15,125 @@ msgstr ""
 "X-Generator: Loco https://localise.biz/\n"
 "X-Loco-Version: 2.4.1; wp-5.5"
 
-#: classes/class-dc-checkout-terms-conditions-popup-frontend.php:88
+#: classes/class-mvx-checkout-terms-conditions-popup-frontend.php:88
 msgid "Agree"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:162
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:162
 msgid "Button Background Color"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:210
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:210
 msgid "Button Background Color Hover"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:154
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:154
 msgid "Button Border Color"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:202
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:202
 msgid "Button Border Redius"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:194
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:194
 msgid "Button Border Size"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:179
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:179
 msgid "Button Font Size"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:186
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:186
 msgid "Button Padding"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:170
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:170
 msgid "Button Text Color"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:218
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:218
 msgid "Button Text Color Hover"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:75
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:75
 msgid "Check this checkbox if you want close button in popup"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:165
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:165
 msgid "Choose button background color"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:213
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:213
 msgid "Choose button background color hover"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:157
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:157
 msgid "Choose button border color"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:173
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:173
 msgid "Choose button text color"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:221
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:221
 msgid "Choose button text color hover"
 msgstr ""
 
-#: classes/class-dc-checkout-terms-conditions-popup-frontend.php:226
+#: classes/class-mvx-checkout-terms-conditions-popup-frontend.php:226
 msgid "Close"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:241
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:241
 msgid "Disable Page Scroller"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:243
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:243
 msgid "Disable page scroller when popup is open."
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:248
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:248
 msgid "Enable Printer"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:69
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:69
 msgid "Enable the functionality"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:250
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:250
 msgid "Enable the Printer to print the terms and conditions page."
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:204
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:204
 msgid ""
 "Enter Button Border Redius in px please do not enter suffix px just numeric"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:196
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:196
 msgid ""
 "Enter Button Border Size in px please do not enter suffix px just numeric"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:181
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:181
 msgid "Enter Button Font Size in px please do not enter suffix px just numeric"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:188
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:188
 msgid "Enter Button Padding in px please do not enter suffix px just numeric"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:79
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:79
 msgid "Enter Close Button Text"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:81
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:81
 msgid "Enter Close Button Text which appear in the terms and conditions popup"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:233
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:233
 msgid "Enter Popup Height In Percent(%)"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:236
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:236
 #, php-format
 msgid ""
 "Enter Popup Height in vh only numeric value allowed here. This unit is based "
@@ -141,125 +141,125 @@ msgid ""
 "height."
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:225
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:225
 msgid "Enter Popup Width In percent(%)"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:228
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:228
 msgid "Enter Popup Width in percent(%) only numeric value allowed here."
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:254
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:254
 msgid "Enter Print Button Text"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:256
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:256
 msgid "Enter Print Button Text which appear in the terms and conditions popup"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:138
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:138
 msgid "Enter the button height"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:140
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:140
 msgid "Enter the button height in px, (just put the numeric value)."
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:146
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:146
 msgid "Enter the button text which will be appear in the popup window"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:148
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:148
 msgid "Enter the button text which will be appear in the popup window."
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:130
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:130
 msgid "Enter the button width"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:132
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:132
 msgid "Enter the button width in px, (just put the numeric value)."
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:87
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:87
 msgid "Enter the text which will be appear in front page"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:98
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:98
 msgid "Enter your custom Link Text which will be shown in the checkout page."
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:89
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:89
 msgid "Enter your custom text which will be shown in the checkout page."
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:104
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:104
 msgid "External Js Lib Enable"
 msgstr ""
 
 #. Author URI of the plugin
-msgid "https://wc-marketplace.com"
+msgid "https://multivendorx.com"
 msgstr ""
 
 #. URI of the plugin
-msgid "https://wc-marketplace.com/"
+msgid "https://multivendorx.com/"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:90
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:90
 msgid "I&rsquo;ve read and accepted"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:106
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:106
 msgid ""
 "If you don't have a jquery lib in your theme then you can enable plugin "
 "jquery."
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:121
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:121
 msgid "Is Agree Button in popup"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:123
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:123
 msgid "Is Agree Button in popup."
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:73
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:73
 msgid "Is Close Button Enable"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:67
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:67
 msgid "Is Enable"
 msgstr ""
 
-#: classes/class-dc-checkout-terms-conditions-popup-frontend.php:81
+#: classes/class-mvx-checkout-terms-conditions-popup-frontend.php:81
 msgid "I’ve read and accept the"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:96
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:96
 msgid "Link Text"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:113
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:113
 msgid "Popup Custom Heading"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:115
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:115
 msgid "Popup Title instead of Terms and condition title"
 msgstr ""
 
-#: classes/class-dc-checkout-terms-conditions-popup-frontend.php:231
+#: classes/class-mvx-checkout-terms-conditions-popup-frontend.php:231
 msgid "Print"
 msgstr ""
 
-#: classes/class-dc-checkout-terms-conditions-popup-frontend.php:85
+#: classes/class-mvx-checkout-terms-conditions-popup-frontend.php:85
 msgid "Terms & Conditions"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:60
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:60
 msgid "Terms and Conditions popup settings"
 msgstr ""
 
-#: admin/class-dc-checkout-terms-conditions-popup-settings.php:41
+#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:41
 msgid "Terms Conditions Popup Settings"
 msgstr ""
 
@@ -272,7 +272,7 @@ msgid ""
 msgstr ""
 
 #. Author of the plugin
-msgid "WC Marketplace"
+msgid "MultiVendorX"
 msgstr ""
 
 #. Name of the plugin

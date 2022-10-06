@@ -1,3 +1,7 @@
+= 1.2.3 - 2022-10-07 =
+* Added - Compatibility of WordPress 6.0.2.
+* Added - Compatibility of Woocommerce 6.9.4.
+
 = 1.2.2 - 2022-07-07 =
 * Added - Compatibility of WordPress 6.0
 * Added - Compatibility of Woocommerce 6.6.1.

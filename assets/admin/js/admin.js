@@ -19,12 +19,12 @@ jQuery(document).ready(function($) {
 				fixed: true
 			},
 			style: {
-				classes: 'qtip-dark qtip-shadow qtip-rounded qtip-dc-css'
+				classes: 'qtip-dark qtip-shadow qtip-rounded qtip-mvx-css'
 			}
 		});
 	});
 	
-	$('.dc_datepicker').each(function() {
+	$('.mvx_datepicker').each(function() {
 	  $(this).datepicker({
       dateFormat : $(this).data('date_format'),
       changeMonth: true,
@@ -54,14 +54,14 @@ jQuery(document).ready(function($) {
         var ele_name = ele.data('name');
         ele.attr('name', holder_name+'['+multi_input_blockCount+']['+ele_name+']');
         ele.attr('id', holder_id + '_' + ele_name + '_' + multi_input_blockCount);
-        if(ele.parent().hasClass('dc-wp-fields-uploader')) {
+        if(ele.parent().hasClass('mvx-wp-fields-uploader')) {
           var uploadEle = ele.parent();
           uploadEle.find('img').attr('src', '').attr('id', holder_id + '_' + ele_name + '_' + multi_input_blockCount + '_display').addClass('placeHolder');
           uploadEle.find('.upload_button').attr('id', holder_id + '_' + ele_name + '_' + multi_input_blockCount + '_button').show();
           uploadEle.find('.remove_button').attr('id', holder_id + '_' + ele_name + '_' + multi_input_blockCount + '_remove_button').hide();
         }
         
-        if(ele.hasClass('dc_datepicker')) {
+        if(ele.hasClass('mvx_datepicker')) {
           ele.removeClass('hasDatepicker').datepicker({
             dateFormat : ele.data('date_format'),
             changeMonth: true,

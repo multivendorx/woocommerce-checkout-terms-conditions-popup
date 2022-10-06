@@ -1,5 +1,5 @@
 <?php
-class DC_Checkout_Terms_Conditions_Popup {
+class MVX_Checkout_Terms_Conditions_Popup {
 
 	public $plugin_url;
 
@@ -29,17 +29,17 @@ class DC_Checkout_Terms_Conditions_Popup {
 	
 	public $options;
 	
-	public $dc_wp_fields;
+	public $mvx_wp_fields;
 
 	public function __construct($file) {
 
 		$this->file = $file;
 		$this->plugin_url = trailingslashit(plugins_url('', $plugin = $file));
 		$this->plugin_path = trailingslashit(dirname($file));
-		$this->token = DC_CHECKOUT_TERMS_CONDITIONS_POPUP_PLUGIN_TOKEN;
-		$this->text_domain = DC_CHECKOUT_TERMS_CONDITIONS_POPUP_TEXT_DOMAIN;
-		$this->version = DC_CHECKOUT_TERMS_CONDITIONS_POPUP_PLUGIN_VERSION;	
-		$this->options = get_option('dc_dc_checkout_terms_conditions_popup_general_settings_name');
+		$this->token = MVX_CHECKOUT_TERMS_CONDITIONS_POPUP_PLUGIN_TOKEN;
+		$this->text_domain = MVX_CHECKOUT_TERMS_CONDITIONS_POPUP_TEXT_DOMAIN;
+		$this->version = MVX_CHECKOUT_TERMS_CONDITIONS_POPUP_PLUGIN_VERSION;	
+		$this->options = get_option('mvx_mvx_checkout_terms_conditions_popup_general_settings_name');
 		add_action('init', array(&$this, 'init'), 0);
 		
 	}
@@ -54,24 +54,24 @@ class DC_Checkout_Terms_Conditions_Popup {
 		
 		// Init library
 		$this->load_class('library');
-		$this->library = new DC_Checkout_Terms_Conditions_Popup_Library();
+		$this->library = new MVX_Checkout_Terms_Conditions_Popup_Library();
 
 	
 
 		if (is_admin()) {
 			$this->load_class('admin');
-			$this->admin = new DC_Checkout_Terms_Conditions_Popup_Admin();
+			$this->admin = new MVX_Checkout_Terms_Conditions_Popup_Admin();
 		}
 
 		if (!is_admin() || defined('DOING_AJAX')) {
 			$this->load_class('frontend');
-			$this->frontend = new DC_Checkout_Terms_Conditions_Popup_Frontend();
+			$this->frontend = new MVX_Checkout_Terms_Conditions_Popup_Frontend();
 			
 		
 		}
 
-		// DC Wp Fields
-		$this->dc_wp_fields = $this->library->load_wp_fields();
+		// MVX Wp Fields
+		$this->mvx_wp_fields = $this->library->load_wp_fields();
 	}
 	
 	
