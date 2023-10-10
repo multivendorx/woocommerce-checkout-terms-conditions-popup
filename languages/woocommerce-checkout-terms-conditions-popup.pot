@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Woocommerce Checkout Terms Conditions Popup\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-06 07:58+0000\n"
+"POT-Creation-Date: 2023-09-29 07:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -15,253 +15,275 @@ msgstr ""
 "X-Generator: Loco https://localise.biz/\n"
 "X-Loco-Version: 2.4.1; wp-5.5"
 
-#: classes/class-mvx-checkout-terms-conditions-popup-frontend.php:88
+#: classes/class-woo-checkout-terms-conditions-popup-frontend.php:57
+msgid "& Product policy"
+msgstr ""
+
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:52
+msgid "'Terms and Conditions' Notice Text"
+msgstr ""
+
+#: classes/class-woo-checkout-terms-conditions-popup-frontend.php:70
 msgid "Agree"
 msgstr ""
 
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:162
-msgid "Button Background Color"
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:269
+msgid "Background Color"
 msgstr ""
 
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:210
-msgid "Button Background Color Hover"
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:285
+msgid "Background Color On Hover"
 msgstr ""
 
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:154
-msgid "Button Border Color"
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:261
+msgid "Border Color"
 msgstr ""
 
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:202
-msgid "Button Border Redius"
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:253
+msgid "Border Radius"
 msgstr ""
 
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:194
-msgid "Button Border Size"
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:244
+msgid "Border Size"
 msgstr ""
 
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:179
-msgid "Button Font Size"
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:167
+msgid "Button Customization"
 msgstr ""
 
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:186
-msgid "Button Padding"
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:200
+msgid "Button Demo"
 msgstr ""
 
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:170
-msgid "Button Text Color"
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:217
+msgid "Button Height"
 msgstr ""
 
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:218
-msgid "Button Text Color Hover"
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:208
+msgid "Button Width"
 msgstr ""
 
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:75
-msgid "Check this checkbox if you want close button in popup"
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:117
+msgid ""
+"By default we display 'Print' text you can modify as per your need from here."
 msgstr ""
 
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:165
-msgid "Choose button background color"
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:61
+msgid ""
+"By default we display 'Terms & Conditions' text you can modify as per your "
+"need from here."
 msgstr ""
 
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:213
-msgid "Choose button background color hover"
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:286
+msgid "Choose button background color hover."
 msgstr ""
 
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:157
-msgid "Choose button border color"
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:270
+msgid "Choose button background color."
 msgstr ""
 
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:173
-msgid "Choose button text color"
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:262
+msgid "Choose button border color."
 msgstr ""
 
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:221
-msgid "Choose button text color hover"
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:294
+msgid "Choose button text color hover."
 msgstr ""
 
-#: classes/class-mvx-checkout-terms-conditions-popup-frontend.php:226
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:278
+msgid "Choose button text color."
+msgstr ""
+
+#: classes/class-woo-checkout-terms-conditions-popup-frontend.php:210
+#: classes/class-woo-checkout-terms-conditions-popup-frontend.php:247
 msgid "Close"
 msgstr ""
 
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:241
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:46
+msgid "Configure basic settings. "
+msgstr ""
+
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:169
+msgid "Configure button settings in popup window. "
+msgstr ""
+
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:139
+msgid "Configure popup settings. "
+msgstr ""
+
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:192
+msgid "Custom Button Customizer"
+msgstr ""
+
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:146
+msgid "Custom Popup Heading"
+msgstr ""
+
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:147
+msgid ""
+"Customize the popup title; otherwise, it will display 'Terms and Conditions'."
+msgstr ""
+
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:87
 msgid "Disable Page Scroller"
 msgstr ""
 
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:243
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:93
 msgid "Disable page scroller when popup is open."
 msgstr ""
 
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:248
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:66
+msgid "Display 'Agree' button in popup"
+msgstr ""
+
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:116
+msgid "Display 'Print Button' Text"
+msgstr ""
+
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:101
 msgid "Enable Printer"
 msgstr ""
 
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:69
-msgid "Enable the functionality"
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:181
+msgid "Enable the custom design for enquiry button."
 msgstr ""
 
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:250
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:107
 msgid "Enable the Printer to print the terms and conditions page."
 msgstr ""
 
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:204
-msgid ""
-"Enter Button Border Redius in px please do not enter suffix px just numeric"
-msgstr ""
-
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:196
-msgid ""
-"Enter Button Border Size in px please do not enter suffix px just numeric"
-msgstr ""
-
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:181
-msgid "Enter Button Font Size in px please do not enter suffix px just numeric"
-msgstr ""
-
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:188
-msgid "Enter Button Padding in px please do not enter suffix px just numeric"
-msgstr ""
-
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:79
-msgid "Enter Close Button Text"
-msgstr ""
-
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:81
-msgid "Enter Close Button Text which appear in the terms and conditions popup"
-msgstr ""
-
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:233
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:160
 msgid "Enter Popup Height In Percent(%)"
 msgstr ""
 
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:236
-#, php-format
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:161
 msgid ""
 "Enter Popup Height in vh only numeric value allowed here. This unit is based "
 "on the height of the viewport. A value of 1vh is equal to 1% of the viewport "
 "height."
 msgstr ""
 
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:225
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:153
 msgid "Enter Popup Width In percent(%)"
 msgstr ""
 
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:228
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:154
 msgid "Enter Popup Width in percent(%) only numeric value allowed here."
 msgstr ""
 
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:254
-msgid "Enter Print Button Text"
+#: classes/class-woo-checkout-terms-conditions-popup-admin.php:41
+msgid "Example"
 msgstr ""
 
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:256
-msgid "Enter Print Button Text which appear in the terms and conditions popup"
-msgstr ""
-
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:138
-msgid "Enter the button height"
-msgstr ""
-
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:140
-msgid "Enter the button height in px, (just put the numeric value)."
-msgstr ""
-
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:146
-msgid "Enter the button text which will be appear in the popup window"
-msgstr ""
-
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:148
-msgid "Enter the button text which will be appear in the popup window."
-msgstr ""
-
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:130
-msgid "Enter the button width"
-msgstr ""
-
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:132
-msgid "Enter the button width in px, (just put the numeric value)."
-msgstr ""
-
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:87
-msgid "Enter the text which will be appear in front page"
-msgstr ""
-
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:98
-msgid "Enter your custom Link Text which will be shown in the checkout page."
-msgstr ""
-
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:89
-msgid "Enter your custom text which will be shown in the checkout page."
-msgstr ""
-
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:104
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:122
 msgid "External Js Lib Enable"
 msgstr ""
 
-#. URI of the plugin
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:226
+msgid "Font Size"
+msgstr ""
+
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:44
+msgid "General"
+msgstr ""
+
 #. Author URI of the plugin
 msgid "https://multivendorx.com/"
 msgstr ""
 
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:90
-msgid "I&rsquo;ve read and accepted"
+#. URI of the plugin
+msgid ""
+"https://wordpress.org/plugins/woocommerce-checkout-terms-conditions-popup/"
 msgstr ""
 
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:106
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:128
 msgid ""
 "If you don't have a jquery lib in your theme then you can enable plugin "
 "jquery."
 msgstr ""
 
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:121
-msgid "Is Agree Button in popup"
-msgstr ""
-
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:123
-msgid "Is Agree Button in popup."
-msgstr ""
-
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:73
-msgid "Is Close Button Enable"
-msgstr ""
-
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:67
-msgid "Is Enable"
-msgstr ""
-
-#: classes/class-mvx-checkout-terms-conditions-popup-frontend.php:81
+#: classes/class-woo-checkout-terms-conditions-popup-frontend.php:50
 msgid "I’ve read and accept the"
-msgstr ""
-
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:96
-msgid "Link Text"
 msgstr ""
 
 #. Author of the plugin
 msgid "MultiVendorX"
 msgstr ""
 
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:113
-msgid "Popup Custom Heading"
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:191
+msgid "no_label"
 msgstr ""
 
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:115
-msgid "Popup Title instead of Terms and condition title"
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:235
+msgid "Padding"
 msgstr ""
 
-#: classes/class-mvx-checkout-terms-conditions-popup-frontend.php:231
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:137
+msgid "Popup Customization"
+msgstr ""
+
+#: classes/class-woo-checkout-terms-conditions-popup-frontend.php:214
+#: classes/class-woo-checkout-terms-conditions-popup-frontend.php:251
 msgid "Print"
 msgstr ""
 
-#: classes/class-mvx-checkout-terms-conditions-popup-frontend.php:85
+#: classes/class-woo-checkout-terms-conditions-popup-frontend.php:231
+msgid "Product Name:"
+msgstr ""
+
+#: classes/class-woo-checkout-terms-conditions-popup-frontend.php:220
+msgid "Product Policy"
+msgstr ""
+
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:81
+msgid "Rename 'Agree' Button Text"
+msgstr ""
+
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:59
+msgid "Rename 'Terms & Conditions' text"
+msgstr ""
+
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:82
+msgid ""
+"Replace 'Agree' with the text that users can click to accept the site's "
+"terms and conditions."
+msgstr ""
+
+#: classes/class-woo-checkout-terms-conditions-popup-admin.php:63
+msgid "Set terms and conditions for this product."
+msgstr ""
+
+#: admin/class-woo-checkout-terms-conditions-popup-settings.php:23
+#: admin/class-woo-checkout-terms-conditions-popup-settings.php:24
+msgid "Settings"
+msgstr ""
+
+#: classes/class-woo-checkout-terms-conditions-popup.php:149
+msgid "Settings Saved"
+msgstr ""
+
+#: admin/class-woo-checkout-terms-conditions-popup-settings.php:13
+#: admin/class-woo-checkout-terms-conditions-popup-settings.php:14
+#: classes/class-woo-checkout-terms-conditions-popup-admin.php:62
+#: classes/class-woo-checkout-terms-conditions-popup-frontend.php:54
 msgid "Terms & Conditions"
 msgstr ""
 
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:60
-msgid "Terms and Conditions popup settings"
+#: classes/class-woo-checkout-terms-conditions-popup-frontend.php:233
+msgid "Terms & conditions:"
 msgstr ""
 
-#: admin/class-mvx-checkout-terms-conditions-popup-settings.php:41
-msgid "Terms Conditions Popup Settings"
+#: classes/class-woo-checkout-terms-conditions-popup-admin.php:48
+#: classes/class-woo-checkout-terms-conditions-popup-frontend.php:29
+msgid "Terms and Conditions"
+msgstr ""
+
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:277
+msgid "Text Color"
+msgstr ""
+
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:293
+msgid "Text Color On Hover"
 msgstr ""
 
 #. Description of the plugin
@@ -272,6 +294,23 @@ msgid ""
 "popup button. Popup will be fully responsive in any device."
 msgstr ""
 
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:54
+msgid ""
+"This setting allows the admin to display a notice that requests users to "
+"review the site's terms and conditions."
+msgstr ""
+
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:72
+msgid ""
+"When enabled, users will see the 'Agree' button in the popup window, "
+"allowing them to indicate their agreement with the terms or content "
+"presented."
+msgstr ""
+
 #. Name of the plugin
 msgid "Woocommerce Checkout Terms Conditions Popup"
+msgstr ""
+
+#: includes/woo-checkout-terms-conditions-popup-core-functions.php:175
+msgid "Your own button style"
 msgstr ""
