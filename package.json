@@ -1,0 +1,39 @@
+{
+  "name": "woocommerce-checkout-terms-conditions-popup",
+  "version": "1.0.0",
+  "description": "=== Woocommerce Checkout Terms Conditions Popup === ",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/multivendorx/woocommerce-checkout-terms-conditions-popup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/multivendorx/woocommerce-checkout-terms-conditions-popup/issues"
+  },
+  "homepage": "https://github.com/multivendorx/woocommerce-checkout-terms-conditions-popup#readme",
+  "devDependencies": {
+    "@wordpress/scripts": "^26.13.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@material/slider": "^14.0.0",
+    "@mui/material": "^5.14.10",
+    "axios": "^1.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.16.0",
+    "react-select": "^5.7.4",
+    "react-spinners": "^0.13.8"
+  }
+}

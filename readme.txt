@@ -1,7 +1,7 @@
 ===  WooCommerce Checkout Terms Conditions Popup ===
 Contributors: wcmp, rajsekharchatterjee11
 Tags: woocommerce terms popup, woocommerce, woocommerce terms, woocommerce conditions, woocommerce checkout terms and conditions popup, terms and conditions popup
-Donate link: https://multivendorx.com/
+Donate link: https://wordpress.org/plugins/woocommerce-checkout-terms-conditions-popup/
 Requires at least: 4.2
 Tested up to: 6.0.2
 Stable tag: 1.2.3
@@ -40,7 +40,7 @@ We are adding new features as you are reading. So If your required feature is cu
 * Multilingual Support is included with the plugin and is fully compatible with WPML.
 
 = Configurable =
-This plugin is highly configurable, with options to customize almost every feature you may think of. if you have any suggestion regarding the plugin improvement then feel free contact to our website https://multivendorx.com/.
+This plugin is highly configurable, with options to customize almost every feature you may think of. if you have any suggestion regarding the plugin improvement then feel free contact to our website https://wordpress.org/support/plugin/woocommerce-checkout-terms-conditions-popup/.
 
 = Feedback =
 All we want is love. We are extremely responsive about support requests - so if you face a problem or find any bugs, shoot us a mail or post it in the support forum, and we will respond within 24 hours(during business days). If you get the impulse to rate the plugin low because it is not working as it should, please do wait for our response because the root cause of the problem may be something else. 
