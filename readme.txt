@@ -3,8 +3,8 @@ Contributors: wcmp, rajsekharchatterjee11
 Tags: woocommerce terms popup, woocommerce, woocommerce terms, woocommerce conditions, woocommerce checkout terms and conditions popup, terms and conditions popup
 Donate link: https://multivendorx.com/
 Requires at least: 4.2
-Tested up to: 6.0.2
-Stable tag: 1.2.3
+Tested up to: 6.8.2
+Stable tag: 1.2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -85,6 +85,10 @@ Ans : You, have to require the WooCommerce >= 2.0.
 
 
 == Changelog ==
+
+= 1.2.4 - 2025-09-23 =
+* Added - Compatibility of WordPress 6.8.2.
+* Added - Compatibility of Woocommerce 10.2.1.
 
 = 1.2.3 - 2022-10-07 =
 * Added - Compatibility of WordPress 6.0.2.
