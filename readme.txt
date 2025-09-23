@@ -1,4 +1,4 @@
-===  WooCommerce Checkout Terms Conditions Popup ===
+===  Checkout Terms Conditions Popup for WooCommerce ===
 Contributors: wcmp, rajsekharchatterjee11
 Tags: woocommerce terms popup, woocommerce, woocommerce terms, woocommerce conditions, woocommerce checkout terms and conditions popup, terms and conditions popup
 Donate link: https://multivendorx.com/
