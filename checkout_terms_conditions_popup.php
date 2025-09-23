@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Woocommerce Checkout Terms Conditions Popup
+ * Plugin Name: Checkout Terms Conditions Popup for Woocommerce
  * Plugin URI: https://multivendorx.com/
  * Description: This is a woocommerce plugin which show the terms and conditions in popup in checkout page, Here admin can change the text of Terms and conditions as well as link text. admin can also configure the size of popup and text of popup button. Popup will be fully responsive in any device. 
  * Author: MultiVendorX
